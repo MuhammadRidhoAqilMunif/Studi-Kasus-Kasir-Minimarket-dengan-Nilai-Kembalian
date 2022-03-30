@@ -19,7 +19,7 @@ int main(){
 		cin >> jmlBarang[i];
 		cout << "Harga satuan : ";
 		cin >> hargaBarang[i];
-		subtotal[i] = hargaBarang[i] * jmlBarang[i];
+		subtotal[i] = hargaBarang[i] * jmlBarang[i] ;
 		cout << "Sub Total : " << subtotal[i] << endl;
 		cout << endl;
 		total += subtotal[i];
